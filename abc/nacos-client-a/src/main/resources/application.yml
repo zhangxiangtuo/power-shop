@@ -1,0 +1,22 @@
+#server:
+  #port: 10001
+#spring:
+#  #application:
+#    #name: nacos-client-a
+#    #只要名称一样Application启动后就是一个集群
+#  cloud:
+#    nacos:
+#      #Nacos的注册地址
+#      server-addr: localhost:8848
+#
+#      #用户名和密码配置
+#      username: nacos
+#      password: nacos
+#      #服务发现与注册的配置(注册中心)
+#      discovery:
+#        #注册命名空间地址，默认是public，如果注册到其他的命名空间则要加唯一标识
+#        namespace: 8283ff35-e41a-40f8-92cf-3088fceeaa1e
+#        username: ${spring.cloud.nacos.username}
+#        password: ${spring.cloud.nacos.password}
+#        group: DEFAULT_GROUP
+
