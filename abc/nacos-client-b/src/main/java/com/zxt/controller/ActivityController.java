@@ -40,7 +40,7 @@ import java.util.stream.Collectors;
             @TableField
  */
 @RestController
-@RequestMapping("/activity")
+@RequestMapping("/b/activity")
 public class ActivityController {
 
     @Autowired

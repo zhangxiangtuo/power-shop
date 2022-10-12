@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>nacos-client-a</artifactId>
+    <artifactId>oauth2</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
@@ -22,6 +22,7 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+
         <!--Nacos配置中心-->
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
@@ -33,22 +34,36 @@
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
         </dependency>
 
-        <!--远程调用，提供负载均衡操作，发送http请求，根据restful的方式来操作-->
+        <!--Oauth2用于进行权限校验和鉴权的-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-openfeign</artifactId>
+            <artifactId>spring-cloud-starter-oauth2</artifactId>
         </dependency>
 
+        <!--使用Redis数据库，来存储令牌，后期同过Jwt生成令牌，就不需要Reids了-->
         <dependency>
-            <groupId>com.zxt</groupId>
-            <artifactId>common</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-hystrix -->
+        <!--Mysql的启动-->
         <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+
+        <!-- 添加jwt的依赖 -->
+        <dependency>
+            <groupId>com.auth0</groupId>
+            <artifactId>java-jwt</artifactId>
+            <version>4.0.0</version>
+        </dependency>
+
+        <!--MybatisPlus，是对Mybatis的增强，主要用于单表操作，通过MybatisPlus的Api进行操作单表的增删改查，支持Lambda等表达式语言-->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
         </dependency>
 
 

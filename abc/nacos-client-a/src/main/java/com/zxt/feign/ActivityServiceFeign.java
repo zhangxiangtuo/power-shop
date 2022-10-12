@@ -16,43 +16,52 @@ import java.util.List;
 @FeignClient("nacos-client-b")
 public interface ActivityServiceFeign {
 
-     @GetMapping("/activity/list")
+     @GetMapping("/b/activity/list")
      List<Activity> list();
 
      //根据条件查询
-     @GetMapping("/activity/listCondition/{name}")
+     @GetMapping("/b/activity/listCondition/{name}")
      List<Activity> listByCondition(@PathVariable("name") String name);
 
 
-     @GetMapping("/activity/getOne/{id}")
+     @GetMapping("/b/activity/getOne/{id}")
      Activity getOne(@PathVariable("id") String id);
 
      //批量新增
-     @PostMapping("/activity/saveBatch")
+     @PostMapping("/b/activity/saveBatch")
      Boolean saveBatch(@RequestBody List<Activity> activityList);
 
 
      //修改或者新增
-     @PostMapping("/activity/saveOrUpdate")
+     @PostMapping("/b/activity/saveOrUpdate")
      Boolean saveOrUpdate(@RequestBody Activity activity);
 
      //根据id修改
-     @PutMapping("/activity/update")
+     @PutMapping("/b/activity/update")
      Boolean update(@RequestBody Activity activity);
 
      //条件修改
-     @PutMapping("/activity/updateCondition/{owner}")
+     @PutMapping("/b/activity/updateCondition/{owner}")
      Boolean updateCondition(@PathVariable("owner") String owner, @RequestBody Activity activity);
 
      //删除操作（单）
-     @DeleteMapping("/activity/deleteById/{id}")
+     @DeleteMapping("/b/activity/deleteById/{id}")
      Boolean deleteById(@PathVariable("id") String id);
 
      //删除操作（多个id）
-     @DeleteMapping("/activity/deleteByIds")
+     @DeleteMapping("/b/activity/deleteByIds")
      Boolean deleteByIds(@RequestBody List<String> ids);
 
-     @DeleteMapping("/activity/deleteByCondition/{owner}")
+     @DeleteMapping("/b/activity/deleteByCondition/{owner}")
      Boolean deleteByCondition(@PathVariable("owner") String owner);
+
+     @GetMapping("/err/01")
+     String err01();
+
+     @GetMapping("/err/02")
+     String err02();
+
+     @GetMapping("/err/03/{id}")
+     String err03(@PathVariable("id")Integer id);
 
 }

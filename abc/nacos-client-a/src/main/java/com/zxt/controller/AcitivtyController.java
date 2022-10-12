@@ -9,6 +9,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Arrays;
@@ -20,7 +22,7 @@ import java.util.List;
  * @date 2022/10/7 20:50
  */
 @RestController
-@RequestMapping("/activity")
+@RequestMapping("/a/activity")
 public class AcitivtyController {
     /**
      * Feign声明
@@ -65,7 +67,10 @@ public class AcitivtyController {
     private ActivityServiceFeign activityServiceFeign;
 
     @GetMapping("/01")
-    public R list01() {
+    public R list01(HttpServletRequest request){
+        System.out.println("Request Header aaa :" + request.getHeader("aaa"));
+        System.out.println("Request Parameter bbb :" + request.getParameter("bbb"));
+        System.out.println("...被访问了");
         return ok(
                 activityServiceFeign.list()
         );

@@ -20,3 +20,9 @@
 #        password: ${spring.cloud.nacos.password}
 #        group: DEFAULT_GROUP
 
+#feign:
+#  httpclient:
+#    connection-timeout: 5000
+#    hc5:
+#      socket-timeout: 5000
+
