@@ -5,32 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f925806-072c-4944-8225-c041625e01a0" name="Changes" comment="">
-<<<<<<< HEAD
-      <change afterPath="$PROJECT_DIR$/../abc/es/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../abc/es/src/main/java/com/zxt/ESApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../abc/es/src/main/java/com/zxt/domain/Goods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../abc/es/src/main/java/com/zxt/repository/GoodsRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../abc/es/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../abc/es/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../abc/es/src/test/java/ESTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../abc/oauth2/src/main/resources/rsa/public.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../abc/oauth2/src/main/resources/rsa/sz2206.jks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../abc/rabbitmq-consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../abc/rabbitmq-consumer/src/main/java/com/zxt/ConsumerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../abc/rabbitmq-consumer/src/main/java/com/zxt/receive/ReceiveMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../abc/rabbitmq-consumer/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../abc/rabbitmq-producer/src/main/java/com/zxt/config/RabbitMQConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../abc/rabbitmq-producer/src/main/java/com/zxt/properties/BaseProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../abc/rabbitmq-producer/src/main/java/com/zxt/properties/DirectProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../abc/rabbitmq-producer/src/main/java/com/zxt/properties/FanoutProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../abc/rabbitmq-producer/src/main/java/com/zxt/properties/RabbitMQProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../abc/rabbitmq-producer/src/main/java/com/zxt/properties/TopicProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../abc/rabbitmq-producer/src/main/java/com/zxt/send/SendMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../abc/oauth2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../abc/oauth2/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../abc/oauth2/src/main/java/com/zxt/config/AuthorizationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../abc/oauth2/src/main/java/com/zxt/config/AuthorizationConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../abc/oauth2/src/main/java/com/zxt/config/ResourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../abc/oauth2/src/main/java/com/zxt/config/ResourceConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../abc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../abc/pom.xml" afterDir="false" />
-=======
       <change beforePath="$PROJECT_DIR$/../powershow/iaas/gateway/pom.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../powershow/iaas/pom.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../prowershow/iaas/auth-server/pom.xml" beforeDir="false" />
@@ -53,7 +27,6 @@
       <change beforePath="$PROJECT_DIR$/../prowershow/iaas/gateway/src/main/resources/bootstrap.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../prowershow/iaas/pom.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../prowershow/pom.xml" beforeDir="false" />
->>>>>>> 995b097 (day01登录权限)
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,10 +152,14 @@
       <workItem from="1665912675934" duration="9529000" />
       <workItem from="1665967126801" duration="11452000" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <workItem from="1665988525457" duration="300000" />
 =======
       <workItem from="1665988525457" duration="1322000" />
 >>>>>>> 995b097 (day01登录权限)
+=======
+      <workItem from="1665988525457" duration="300000" />
+>>>>>>> 9ea3126e652cce4239d378c90087c69da0a8b35f
     </task>
     <servers />
   </component>
@@ -201,10 +178,14 @@
                     <value>
                       <list>
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <option value="HEAD" />
 =======
                         <option value="github/day01" />
 >>>>>>> 995b097 (day01登录权限)
+=======
+                        <option value="HEAD" />
+>>>>>>> 9ea3126e652cce4239d378c90087c69da0a8b35f
                       </list>
                     </value>
                   </entry>
