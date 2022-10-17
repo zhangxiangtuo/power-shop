@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3f925806-072c-4944-8225-c041625e01a0" name="Changes" comment="">
+<<<<<<< HEAD
+      <change afterPath="$PROJECT_DIR$/../abc/es/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../abc/es/src/main/java/com/zxt/ESApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../abc/es/src/main/java/com/zxt/domain/Goods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../abc/es/src/main/java/com/zxt/repository/GoodsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../abc/es/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../abc/es/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../abc/es/src/test/java/ESTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../abc/oauth2/src/main/resources/rsa/public.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../abc/oauth2/src/main/resources/rsa/sz2206.jks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../abc/rabbitmq-consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../abc/rabbitmq-consumer/src/main/java/com/zxt/ConsumerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../abc/rabbitmq-consumer/src/main/java/com/zxt/receive/ReceiveMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../abc/rabbitmq-consumer/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../abc/rabbitmq-producer/src/main/java/com/zxt/config/RabbitMQConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../abc/rabbitmq-producer/src/main/java/com/zxt/properties/BaseProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../abc/rabbitmq-producer/src/main/java/com/zxt/properties/DirectProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../abc/rabbitmq-producer/src/main/java/com/zxt/properties/FanoutProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../abc/rabbitmq-producer/src/main/java/com/zxt/properties/RabbitMQProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../abc/rabbitmq-producer/src/main/java/com/zxt/properties/TopicProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../abc/rabbitmq-producer/src/main/java/com/zxt/send/SendMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abc/oauth2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../abc/oauth2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abc/oauth2/src/main/java/com/zxt/config/AuthorizationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../abc/oauth2/src/main/java/com/zxt/config/AuthorizationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abc/oauth2/src/main/java/com/zxt/config/ResourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../abc/oauth2/src/main/java/com/zxt/config/ResourceConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../abc/pom.xml" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/../powershow/iaas/gateway/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../powershow/iaas/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prowershow/iaas/auth-server/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prowershow/iaas/auth-server/src/main/java/com/zxt/shop/AuthServerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prowershow/iaas/auth-server/src/main/java/com/zxt/shop/config/AuthorizationConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prowershow/iaas/auth-server/src/main/java/com/zxt/shop/config/ResourceConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prowershow/iaas/auth-server/src/main/java/com/zxt/shop/config/WebSecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prowershow/iaas/auth-server/src/main/java/com/zxt/shop/constants/AuthServerConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prowershow/iaas/auth-server/src/main/java/com/zxt/shop/domain/SysUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prowershow/iaas/auth-server/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prowershow/iaas/auth-server/src/main/resources/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prowershow/iaas/auth-server/src/main/resources/rsa/public.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prowershow/iaas/auth-server/src/main/resources/rsa/sz2206.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prowershow/iaas/gateway/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prowershow/iaas/gateway/src/main/java/com/zxt/shop/GatewayApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prowershow/iaas/gateway/src/main/java/com/zxt/shop/constants/GatwayConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prowershow/iaas/gateway/src/main/java/com/zxt/shop/filter/JwtCheckFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prowershow/iaas/gateway/src/main/java/com/zxt/shop/route/LoginRouter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prowershow/iaas/gateway/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prowershow/iaas/gateway/src/main/resources/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prowershow/iaas/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prowershow/pom.xml" beforeDir="false" />
+>>>>>>> 995b097 (day01登录权限)
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\course\第四阶段\study\maven\maven\repository" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="E:\course\第四阶段\study\maven\maven\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2GAIIaPdhCklEjspTinz7RocTBe" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/code/Fifth/prowershow/iaas/auth-server/src/main/java/com/zxt/shop/domain&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;da2a5ffa572e4a5d35a910a52ddd17f8&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\code\Fifth\prowershow\iaas\auth-server\src\main\java\com\zxt\shop\domain" />
+      <recent name="E:\code\Fifth\prowershow\iaas\auth-server\src\main\resources\rsa" />
+      <recent name="E:\code\Fifth\prowershow\iaas\auth-server\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.AuthServerApplication">
+    <configuration name="AuthServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="auth-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zxt.shop.AuthServerApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zxt.shop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zxt.shop.GatewayApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zxt.shop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.AuthServerApplication" />
+        <item itemvalue="Spring Boot.GatewayApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3f925806-072c-4944-8225-c041625e01a0" name="Changes" comment="" />
+      <created>1665824884969</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665824884969</updated>
+      <workItem from="1665824886792" duration="1410000" />
+      <workItem from="1665826362370" duration="8456000" />
+      <workItem from="1665903157720" duration="1814000" />
+      <workItem from="1665906609808" duration="5980000" />
+      <workItem from="1665912675934" duration="9529000" />
+      <workItem from="1665967126801" duration="11452000" />
+<<<<<<< HEAD
+      <workItem from="1665988525457" duration="300000" />
+=======
+      <workItem from="1665988525457" duration="1322000" />
+>>>>>>> 995b097 (day01登录权限)
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+<<<<<<< HEAD
+                        <option value="HEAD" />
+=======
+                        <option value="github/day01" />
+>>>>>>> 995b097 (day01登录权限)
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
